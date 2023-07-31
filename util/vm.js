@@ -5,7 +5,7 @@ function chkVersion () {
 
     let options = {
         host: "raw.githubusercontent.com",
-        path: encodeURI("/Emin-G/Daydream-music-bot/master/package.json")
+        path: encodeURI("/Emin-G/StellarLoom/master/package.json")
     }
 
     gety(options, (data) => {
@@ -18,7 +18,7 @@ function chkVersion () {
             for (let v in data) {
                 if (parseInt(data[v]) > parseInt(pjson[v])) {
                     console.log("[Support] 새로운 버전을 찾았습니다! ( 현재 버전 : " + pjson.join(".") + " / 새로운 버전 : " + data.join(".") + " )");
-                    return console.log("[Support] https://github.com/Emin-G/Daydream-music-bot");
+                    return console.log("[Support] https://github.com/Emin-G/StellarLoom");
                 }
             }
         }
