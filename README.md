@@ -79,7 +79,16 @@ Daydream, StellarLoom 프로젝트를 체험해보고 싶다면 유피를 서버
 ##  서버설정
 **Windows 운영체제를 기준으로 설명합니다.**
 
-.env 파일의 **BOT_TOKEN**에 생성한 봇의 토큰을,
+.env 파일을 StellarLoom 폴더 내에 생성해주세요.
+
+> BOT_TOKEN=
+> CLIENT_ID=
+> LAVA_PORT=27017
+> LAVA_PASS=stellarloomtemppass
+
+다음 내용을 복사해서 붙여넣어주세요.
+
+**BOT_TOKEN**에 생성한 봇의 토큰을,
 **CLIENT_ID**에 봇의 Client ID를 넣어주세요.
 
 **LAVA_PORT**는 LavaLink 뮤직 서버의 포트를 의미합니다.
@@ -99,6 +108,19 @@ Daydream, StellarLoom 프로젝트를 체험해보고 싶다면 유피를 서버
 ---
 
 StellarLoom은 LavaLink 서버가 구동되고 있어야 정상적으로 작동합니다.
+
+먼저, LavaLink 서버를 구동하기 위해서는 JDK 17 버전의 설치가 필요합니다.
+* 이미 JDK 17 버전이 설치되어 있다면 이 단계를 건너 뛰셔도 좋습니다.
+
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+위 사이트를 열어주세요.
+
+> <img src="https://cdn.discordapp.com/attachments/807077862880444456/1135431093361844265/stellar6-min.png" width="100%">
+> 17.x.x 중 가장 최신 버전의 JDK 설치 프로그램을 다운로드 해주세요.
+
+JDK 설치를 완료해주세요.
+
+---
 
 https://github.com/lavalink-devs/Lavalink/releases
 위 사이트를 열어주세요.
