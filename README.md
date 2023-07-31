@@ -82,8 +82,11 @@ Daydream, StellarLoom 프로젝트를 체험해보고 싶다면 유피를 서버
 .env 파일을 StellarLoom 폴더 내에 생성해주세요.
 
 >  BOT_TOKEN=
+
 >  CLIENT_ID=
+
 >  LAVA_PORT=27017
+
 >  LAVA_PASS=stellarloomtemppass
 
 다음 내용을 복사해서 붙여넣어주세요.
