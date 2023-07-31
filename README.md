@@ -94,6 +94,8 @@ Daydream, StellarLoom 프로젝트를 체험해보고 싶다면 유피를 서버
 **BOT_TOKEN**에 생성한 봇의 토큰을,
 **CLIENT_ID**에 봇의 Client ID를 넣어주세요.
 
+봇의 MESSAGE CONTENT INTENT가 켜져있어야 하고 서버 내 메세지 삭제 권한이 필요합니다.
+
 **LAVA_PORT**는 LavaLink 뮤직 서버의 포트를 의미합니다.
 **LAVA_PASS**는 LavaLink 뮤직 서버의 비밀번호를 의미합니다.
 초기 비밀번호는 **stellarloomtemppass** 으로 되어있습니다.
