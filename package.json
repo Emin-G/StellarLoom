@@ -1,0 +1,25 @@
+{
+  "name": "stellarloom",
+  "displayName": "StellarLoom Preview",
+  "version": "1.0.0",
+  "description": "거대한 프로젝트를 위한 안정성 있고 효율적인 한국어 기반 디스코드 뮤직 봇",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "author": "Emin_G",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emin-G/StellarLoom"
+  },
+  "bugs": {
+    "url": "https://github.com/Emin-G/StellarLoom/issues"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "lavacord": "^1.1.9",
+    "tweetnacl": "^1.0.3"
+  }
+}
