@@ -143,7 +143,7 @@ https://github.com/lavalink-devs/Lavalink/releases
 
 ---
 
-폴더 안의 start.bat을 키면 서버가 실행됩니다.
+폴더 안의 start.bat을 키면 뮤직 서버가 실행됩니다.
 서버가 실행된 후 봇을 키시면 됩니다.
 
 ---
@@ -170,6 +170,7 @@ URL은 **Youtube**, *SoundCloud, BandCamp, Twitch* 를 지원하고 있습니다
 
 ##  스킵
 >  /스킵
+
 >  /스킵 [트랙 번호]
 
 - 트랙 번호는 [/재생목록](#재생목록) 을 참조
