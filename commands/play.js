@@ -27,6 +27,12 @@ module.exports = {
                 console.log(res);
                 if (!res) return embeded.replyEmbed(interaction, ":triangular_flag_on_post:  **|**  URL이 올바르지 않습니다!", "URL이 올바른지 다시 한번 확인 해주세요!");
                 
+                const listemb = new EmbedBuilder()
+                .setColor("#5d28ed")
+                .setTitle(":crystal_ball:  **|**  URL을 불러오고 있어요.")
+                interaction.reply({ embeds: [listemb] });
+                interaction.deleteReply();
+
                 //Check if Playlist
                 if (!res[1]) return adder.addTrack(interaction, res[0]);
                 else return adder.addTracks(interaction, res);

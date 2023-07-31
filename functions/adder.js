@@ -35,7 +35,7 @@ async function addTrack (interaction, track) {
         .setTitle(":white_check_mark:  **|**  재생목록에 추가했습니다!")
         .setDescription("`" + track.title + "`")
         .setThumbnail("https://img.youtube.com/vi/" + track.id + "/mqdefault.jpg")
-        return interaction.reply({ embeds: [adderemb] });
+        return interaction.channel.send({ embeds: [adderemb] });
     }
 }
 
@@ -66,7 +66,7 @@ async function addTracks (interaction, tracks) {
     .setTitle(":white_check_mark:  **|**  재생목록에 추가했습니다!")
     .setDescription(temp_tracks)
     .setThumbnail("https://img.youtube.com/vi/" + tracks[0].id + "/mqdefault.jpg")
-    interaction.reply({ embeds: [adderemb] });
+    interaction.channel.send({ embeds: [adderemb] });
 
     if (temp_index.handle) return handler.playTrack(interaction);
 }
