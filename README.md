@@ -54,13 +54,6 @@ Daydream, StellarLoom 프로젝트를 체험해보고 싶다면 유피를 서버
 
 ---
 
-## StellarLoom은 아직 개발중이에요!
- - 아직 해결하지 못한 문제들이나 개발되지 않은 기능들이 있어요.
- - 실제 서비스에 적용하기에는 아직 부적합 할 수 있어요. 조금만 더 기다려주세요!
- - 오류 보고, 피드백, 기능 추가 요청을 언제나 환영하고 있어요!
-
----
-
 ##  **목차**
 
 ###  **설치**
@@ -130,8 +123,8 @@ JDK 설치를 완료해주세요.
 https://github.com/lavalink-devs/Lavalink/releases
 위 사이트를 열어주세요.
 
-><img src="https://cdn.discordapp.com/attachments/807077862880444456/1135211180554719273/stellar1-min.png" width="100%">
->Lavalink.jar를 다운로드 받아주세요. 3.7.7 버전을 권장하고 있습니다.
+><img src="https://cdn.discordapp.com/attachments/807077862880444456/1138680668696617040/stellar_fix-min.png" width="100%">
+>Lavalink.jar를 다운로드 받아주세요. 3.7.8 버전을 권장하고 있습니다.
 
 ---
 
