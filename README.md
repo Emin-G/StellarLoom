@@ -124,7 +124,8 @@ https://github.com/lavalink-devs/Lavalink/releases
 위 사이트를 열어주세요.
 
 ><img src="https://cdn.discordapp.com/attachments/807077862880444456/1138680668696617040/stellar_fix-min.png" width="100%">
->Lavalink.jar를 다운로드 받아주세요. 3.7.8 버전을 권장하고 있습니다.
+>Lavalink.jar를 다운로드 받아주세요. 3.x.x 버전을 권장하고 있습니다.
+>3.x.x 중 최대한 최신 버전을 다운로드 받아주세요.
 
 ---
 
