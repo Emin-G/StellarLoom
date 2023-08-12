@@ -1,7 +1,7 @@
 {
   "name": "stellarloom",
   "displayName": "StellarLoom Preview",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "거대한 프로젝트를 위한 안정성 있고 효율적인 한국어 기반 디스코드 뮤직 봇",
   "main": "index.js",
   "engines": {
