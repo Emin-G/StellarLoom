@@ -35,6 +35,8 @@ module.exports = {
 
         else target = parseInt(interaction.options.data[0].value) * 1000;
 
+        if (!target) return embeded.replyEmbed(interaction, ":triangular_flag_on_post:  **|**  올바르지 않은 숫자가 입력됬습니다.", "이것 참 심오하군요...");
+
         await stellar.seekTrack(interaction, target);
 
         const seekemb = new EmbedBuilder()
