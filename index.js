@@ -20,6 +20,10 @@ bot.on("ready", () => {
     });
 });
 
+//LavaLinkAlert
+console.log("[StellarLoom] 노래 재생에 문제가 있거나 노래를 재생하는 도중 지속적으로 오류가 발생한다면 LavaLink.jar 을 업데이트 해보세요.");
+//LavaLinkAlert
+
 process.on("unhandledRejection", (error) => {
     console.error("Unhandled promise rejection : ", error);
 });
@@ -34,7 +38,7 @@ bot.on("ready", () => {
 
 //Coomand
 bot.commands = new Collection();
-const config = ["play", "skip", "playlist", "stop", "repeat", "shuffle"];
+const config = ["play", "skip", "playlist", "stop", "repeat", "shuffle", "seek"];
 const commands = [];
 
 const rest = new REST({ version: "10" }).setToken(process.env.BOT_TOKEN);

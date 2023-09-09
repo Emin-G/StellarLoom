@@ -5,7 +5,7 @@ async function playTrack (interaction) {
 
     const stellar = require("../lib/stellar.js");
 
-    stellar.playTrack(interaction, playlist[interaction.guild.id][0].data);
+    await stellar.playTrack(interaction, playlist[interaction.guild.id][0].data);
 
     //Noti off when repeating
     if (station[interaction.guild.id] === "REPEAT") return;
