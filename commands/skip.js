@@ -11,7 +11,7 @@ module.exports = {
 		.setDescription("재생중인 영상 혹은 특정 영상을 스킵해요.")
         .addStringOption((option) =>
             option.setName("옵션")
-                .setDescription("공백 또는 트랙 번호를 입력해주세요. 옵션이 공백이면 현재 트랙을 스킵해요.")
+                .setDescription("공백 또는 트랙 번호를 입력해주세요. 여러 트랙을 삭제할 수도 있습니다. 1 3은 1 ~ 3번 트랙을 스킵합니다.")
                 .setRequired(false)),
     
 	async execute(interaction) {
