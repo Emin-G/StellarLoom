@@ -38,7 +38,7 @@ bot.on("ready", () => {
 
 //Coomand
 bot.commands = new Collection();
-const config = ["play", "skip", "playlist", "stop", "repeat", "shuffle", "seek"];
+const config = ["play", "skip", "playlist", "stop", "repeat", "shuffle", "seek", "night", "bass"];
 const commands = [];
 
 const rest = new REST({ version: "10" }).setToken(process.env.BOT_TOKEN);

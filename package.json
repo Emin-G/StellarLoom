@@ -1,7 +1,7 @@
 {
   "name": "stellarloom",
   "displayName": "StellarLoom Preview",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "거대한 프로젝트를 위한 안정성 있고 효율적인 한국어 기반 디스코드 뮤직 봇",
   "main": "index.js",
   "engines": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "discord.js": "^14.11.0",
     "dotenv": "^16.0.3",
-    "lavacord": "^1.1.9",
+    "lavacord": "^2.1.0-v4",
     "tweetnacl": "^1.0.3"
   }
 }
