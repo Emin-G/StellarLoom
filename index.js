@@ -21,6 +21,7 @@ bot.on("ready", () => {
 });
 
 //LavaLinkAlert
+console.log("[StellarLoom] StellarLoom 을 업데이트 한 후 node_modules 폴더를 완전히 삭제하고 npm install 을 다시 실행해주세요.");
 console.log("[StellarLoom] 노래 재생에 문제가 있거나 노래를 재생하는 도중 지속적으로 오류가 발생한다면 LavaLink.jar 을 업데이트 해보세요.");
 //LavaLinkAlert
 
