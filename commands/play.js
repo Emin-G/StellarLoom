@@ -13,10 +13,32 @@ module.exports = {
 		.setDescription("노래를 재생하거나 재생목록에 추가합니다.")
         .addStringOption((option) =>
             option.setName("옵션")
-                .setDescription("유튜브 영상의 URL 또는 제목을 입력해주세요. 재생목록도 가능합니다.")
-                .setRequired(true)),
+                .setDescription("유튜브 영상의 URL 또는 제목을 입력해주세요. 재생목록도 가능합니다.")),
     
 	async execute(interaction) {
+
+        if (!interaction.options.data[0]) {
+            if (!connection[interaction.guild.id]) return embeded.replyEmbed(interaction, ":triangular_flag_on_post:  **|**  검색어가 입력되지 않았습니다.", "노래를 일시 중지, 재개 하려고 했던거라면.. 재생목록이 비어있답니다!");
+            if (!playlist[interaction.guild.id]) return embeded.replyEmbed(interaction, ":triangular_flag_on_post:  **|**  재생 목록을 찾지 못했습니다!", "이것 참 심오하군요...");
+
+            if (connection[interaction.guild.id].paused) {
+                connection[interaction.guild.id].pause(false);
+                
+                const plemb = new EmbedBuilder()
+                .setColor("#28edbc")
+                .setTitle("::arrow_forward:  **|**  다시 재생합니다!")
+                return interaction.reply({ embeds: [plemb] });
+            }
+
+            else {
+                connection[interaction.guild.id].pause(true);
+
+                const plemb = new EmbedBuilder()
+                .setColor("#28edbc")
+                .setTitle(":pause_button:  **|**  일시정지되었습니다!")
+                return interaction.reply({ embeds: [plemb] });
+            }
+        }
 
         let val = interaction.options.data[0].value;
 
