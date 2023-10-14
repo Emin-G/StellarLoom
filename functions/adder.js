@@ -10,7 +10,7 @@ const { EmbedBuilder } = require("discord.js");
 async function addTrack (interaction, track) {
     //ConnectVoiceChannel
     if (!interaction.member.voice.channel) return embeded.sendEmbed(interaction, ":triangular_flag_on_post:  **|**  통화방을 찾지 못했습니다.", "먼저 통화방에 들어가주시거나 권한을 확인해주세요.");
-    if (!connection[interaction.channel.id]) await stellar.joinVoiceChannel(interaction);
+    if (!connection[interaction.guild.id]) await stellar.joinVoiceChannel(interaction);
     //ConnectVoiceChannel
     
     //Add Song
@@ -42,7 +42,7 @@ async function addTrack (interaction, track) {
 async function addTracks (interaction, tracks) {
     //ConnectVoiceChannel
     if (!interaction.member.voice.channel) return embeded.replyEmbed(interaction, ":triangular_flag_on_post:  **|**  통화방을 찾지 못했습니다.", "먼저 통화방에 들어가주시거나 권한을 확인해주세요.");
-    if (!connection[interaction.channel.id]) await stellar.joinVoiceChannel(interaction);
+    if (!connection[interaction.guild.id]) await stellar.joinVoiceChannel(interaction);
     //ConnectVoiceChannel
 
     //Add Song
