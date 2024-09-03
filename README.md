@@ -1,8 +1,8 @@
-<img src="https://cdn.discordapp.com/attachments/807077862880444456/1135196540319842324/StellarLoom_Pamplet-min.png" alt="StellarLoomThumb" width="100%">
+<img src="https://github.com/Emin-G/Img/blob/main/StellarLoom_Pamplet-min.png?raw=true" alt="StellarLoomThumb" width="100%">
 
 #  StellarLoom Preview
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/807077862880444456/1135196540663762954/StellarLoom_Profile_Round-min.png" alt="StellarLoom" width="40%">
+<img src="https://github.com/Emin-G/Img/blob/main/StellarLoom_Profile_Round-min.png?raw=true" alt="StellarLoom" width="40%">
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@ StellarLoom은 이미 다른 이들에게 스며져 있지만, 여전히 당신�
 ---
 
 <div align="center">
-<img src="https://cdn.discordapp.com/attachments/807077862880444456/1135223090041847908/stellar4.png" width="60%">
+<img src="https://github.com/Emin-G/Img/blob/main/stellar4.png?raw=true" width="60%">
 </div>
 
 <p align="center">
@@ -39,10 +39,10 @@ Daydream 프로젝트에 비해 더욱 안정적이고 많은 수의 스트리�
 
 <div align="center">
 <a href="https://github.com/Emin-G/Daydream-music-bot">
-<img src="https://cdn.discordapp.com/attachments/807077862880444456/1135203605218078760/Daydream_Pamplet.png" alt="Daydream" width="45%">
+<img src="https://github.com/Emin-G/Img/blob/main/Daydream_Pamplet.png?raw=true" alt="Daydream" width="45%">
 </a>
 <a href="https://yupi.arite.studio/">
-<img src="https://cdn.discordapp.com/attachments/807077862880444456/1135205794619605122/Yupi_Pamplet.png" alt="Yupi" width="45%">
+<img src="https://github.com/Emin-G/Img/blob/main/Yupi_Pamplet.png?raw=true" alt="Yupi" width="45%">
 </div>
 </a>
 <p align="center">
@@ -122,7 +122,7 @@ StellarLoom은 LavaLink 서버가 구동되고 있어야 정상적으로 작동�
 https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 위 사이트를 열어주세요.
 
-> <img src="https://cdn.discordapp.com/attachments/807077862880444456/1135431093361844265/stellar6-min.png" width="100%">
+> <img src="https://github.com/Emin-G/Img/blob/main/stellar6-min.png?raw=true" width="100%">
 > 17.x.x 중 가장 최신 버전의 JDK 설치 프로그램을 다운로드 해주세요.
 
 JDK 설치를 완료해주세요.
@@ -132,18 +132,18 @@ JDK 설치를 완료해주세요.
 https://github.com/lavalink-devs/Lavalink/releases
 위 사이트를 열어주세요.
 
-><img src="https://cdn.discordapp.com/attachments/807077862880444456/1138680668696617040/stellar_fix-min.png" width="100%">
+><img src="https://github.com/Emin-G/Img/blob/main/stellar_fix-min.png?raw=true" width="100%">
 >Lavalink.jar를 다운로드 받아주세요. 3.x.x 버전을 권장하고 있습니다.
 >3.x.x 중 최대한 최신 버전을 다운로드 받아주세요.
 
 ---
 
-><div align="center"><img src="https://cdn.discordapp.com/attachments/807077862880444456/1135213138220945499/stellar2-min.png" width="50%"></div>
+><div align="center"><img src="https://github.com/Emin-G/Img/blob/main/stellar2-min.png?raw=true" width="50%"></div>
 >Server 폴더를 StellarLoom 폴더 밖으로 꺼내주세요.
 
 ---
 
-><div align="center"><img src="https://cdn.discordapp.com/attachments/807077862880444456/1135214717128945815/stellar3-min.png" width="30%"></div>
+><div align="center"><img src="https://github.com/Emin-G/Img/blob/main/stellar3-min.png?raw=true" width="30%"></div>
 >밖으로 꺼낸 Server 폴더 안에 아까 다운받았던 Lavalink.jar를 넣어주세요.
 
 ---
