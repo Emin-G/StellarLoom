@@ -34,7 +34,7 @@ plugins:
         searching: false # Disables the ability to search for videos for this client.
 lavalink:
   plugins:
-      - dependency: "dev.lavalink.youtube:youtube-plugin:1.3.0"
+      - dependency: "dev.lavalink.youtube:youtube-plugin:1.7.2"
         repository: "https://maven.lavalink.dev/releases"
   pluginsDir: "./plugins"
   server:
