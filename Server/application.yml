@@ -4,7 +4,7 @@ server: # REST and WS server
 
 lavalink:
   plugins:
-      - dependency: "dev.lavalink.youtube:youtube-plugin:1.5.2"
+      - dependency: "dev.lavalink.youtube:youtube-plugin:1.8.3"
         repository: "https://maven.lavalink.dev/releases"
   pluginsDir: "./plugins"
   server:
@@ -98,9 +98,15 @@ plugins:
       # Clients are queried in the order they are given (so the first client is queried first and so on...)
       clients:
         - MUSIC
+        - TVHTML5EMBEDDED
+        - ANDROID_MUSIC
         - ANDROID_TESTSUITE
         - WEB
-        - TVHTML5EMBEDDED
+        - WEBEMBEDDED
+        - ANDROID
+        - ANDROID_LITE
+        - MEDIA_CONNECT
+        - IOS
 
       # You can configure individual clients with the following.
       # Any options or clients left unspecified will use their default values
